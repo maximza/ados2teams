@@ -56,6 +56,11 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# ignore appsettings configuration files
+**/appsettings.development.json
+**/appsettings.json
+**/appsettings.production.json
+
 # StyleCop
 StyleCopReport.xml
 
@@ -338,3 +343,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/ADOS2Teams.Tests/shtorm.runsettings
+/ADOS2Teams.Tests/Settings.job
+/ADOS2TeamsBot/TeamsAppManifest/manifest.json

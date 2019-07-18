@@ -1,0 +1,68 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0",
+  "id": "<<REGISTERED_APP_ID>>",
+  "packageName": "maximza.teams.ados2teams",
+  "developer": {
+    "name": "Max Zagorodnikov",
+    "websiteUrl": "https://github.com/maximza",
+    "privacyUrl": "https://",
+    "termsOfUseUrl": "https://"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Azure DevOps Server",
+    "full": "Azure DevOps Server Integration"
+  },
+  "description": {
+    "short": "App allows you to integrate Azure DevOps Server data into Teams",
+    "full": "This app helps to use Azure DevOps Server data in your Teams communication"
+  },
+  "accentColor": "#F9F9FA",
+  "bots": [
+    {
+      "botId": "<<REGISTERED_BOT_ID>>",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "composeExtensions": [
+    {
+      "botId": "<<REGISTERED_BOT_ID>>",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "adosSearch",
+          "type": "query",
+          "title": "Search in Azure DevOps Server",
+          "description": "Search through Azure DevOps Server",
+          "initialRun": false,
+          "fetchTask": false,
+          "parameters": [
+            {
+              "name": "queryText",
+              "title": "Query Text",
+              "description": "Search Query Text",
+              "inputType": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "<<BASE_URI_DOMAIN>>"
+  ]
+}
