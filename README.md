@@ -11,7 +11,7 @@ So do not expect clean nice code, there is no one:) But it works ;)
 
 ## Getting Started
 
-Basically this project relyies on, so please read it first:
+Basically this project relies on, so please read it first:
   * Getting started with Teams apps: https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-dotnet-app-studio
   * "How to" article about developing messaging extension: https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/messaging-extensions/search-extensions
   * [Bot Framework v4](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=13&cad=rja&uact=8&ved=2ahUKEwjEr6a3-r3jAhV15KYKHc3kDeoQFjAMegQIAxAB&url=https%3A%2F%2Fdev.botframework.com%2F&usg=AOvVaw1fJCMkLuoJiBQAKTyDzh-U), [project templates for Visual Studio](https://marketplace.visualstudio.com/items?itemName=BotBuilder.botbuilderv4) and [Bot Builder MS Teams Extension](https://github.com/OfficeDev/BotBuilder-MicrosoftTeams) preview with .Net Core support
@@ -51,7 +51,7 @@ Please see Getting started with Teams apps: https://docs.microsoft.com/en-us/mic
 Icons made by [GraphicsBay](https://www.flaticon.com/authors/graphicsbay) from [Flaticon](https://www.flaticon.com/) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/)
 
 ## Contributing
-Please read [CONTRIBUTING.md](/contributing.md) for details on.
+Please read [CONTRIBUTING.md](/Contributing.md) for details on.
 
 ## License
 [MIT](https://github.com/maximza/ados2teams/blob/master/LICENSE)
